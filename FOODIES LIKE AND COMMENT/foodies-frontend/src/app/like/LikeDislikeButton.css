@@ -1,0 +1,36 @@
+.like-button {
+    cursor: pointer;
+    border: 1px solid #007bff !important;
+    outline: none !important;
+    background: none ;
+    color: #000;
+    font-size: 12px;
+    padding: 0 !important;
+    border-radius: 50% !important;
+    width: 30px;
+    height: 30px;
+
+    &:hover, &.focus {
+        background-color: #007bff !important;
+        color: #fff !important;
+    }
+}
+
+
+.dislike-button {
+    cursor: pointer;
+    border: 1px solid #ff0000 !important;
+    outline: none !important;
+    background: none;
+    color: #000;
+    font-size: 12px;
+    padding: 0 !important;
+    border-radius: 50% !important;
+    width: 30px;
+    height: 30px;
+
+    &:hover, &.focus {
+        background-color: #ff0000 !important;
+        color: #fff !important;
+    }
+}
