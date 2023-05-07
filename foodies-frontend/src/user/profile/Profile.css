@@ -1,0 +1,132 @@
+.profile-container {
+    width: 100%;
+    
+    /* padding-top: 30px; */
+    display: flex;
+    justify-content: left;
+}
+.profile-mid{
+    width: 30%;
+    flex-grow: 1;
+    margin-top: -20px;
+    padding-top: 80px;
+    /* border: #DEA02C solid 1px; */
+    margin-left: 10px;
+    border-radius: 10px;
+    height: 650px;
+    background-color: #F2DED9;
+
+}
+.search-div{
+    width: 100%;
+    
+    /* padding-top: 30px; */
+    display: flex;
+}
+.input_div{
+    flex-grow: 8;
+    padding: 10px;
+}
+.btn_div{
+    flex-grow: 1;
+    padding: 10px;
+}
+.profile_area{
+    flex-grow: 10;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-top: -20px;
+    background-color: #F2DED9;
+}
+
+.result_list{
+    /* display: flex; */
+    padding: 5px;
+}
+.user_div{
+    background-color: #DBB688;
+    border: #DBB688 solid 1px;
+    margin: 2px;
+    border-radius: 5px;
+    padding-top: 2px;
+}
+.profile-info {
+    text-align: center;
+}
+
+.profile-info_list{
+    margin-left: 20px;
+    display: flex;
+}
+
+.follow_btn_div{
+    margin: 5px;
+    /* flex-grow: 1; */
+    
+}
+
+.profile-info .profile-avatar img {
+    border-radius: 50%;
+    max-width: 250px;
+   
+}
+
+.profile-name_list {
+    padding-left: 40px;
+    /* font-weight: 500;
+    font-size: 20px; */
+    flex-grow: 5;
+}
+.search_h2{
+    margin-left: 10px;
+}
+
+
+.profile-avatar_list img{
+    border-radius: 50%;
+    flex-grow: 1;
+    max-width: 75px;
+
+}
+
+.profile-info .profile-name {
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.profile-info .profile-email {
+    font-weight: 400;
+}
+
+.text-avatar {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50%;
+    background: #DEA02C;
+}
+.text-avatar-list{
+    width: 75px;
+    height: 75px;
+    /* margin: 5px; */
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50%;
+    background: #DEA02C;
+}
+.spn {
+    line-height: 65px;
+    color: #fff;
+    font-size: 2.5em;
+}
+
+
+.text-avatar span {
+    line-height: 200px;
+    color: #fff;
+    font-size: 3em;
+}
